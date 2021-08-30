@@ -2,7 +2,7 @@
   <div id="app">
     <ul>
       <li>我的姓名:{{ $store.state.name }}</li>
-      <li>我的年龄:{{ $store.state.age }} <button @click="$store.state.age = 100">+2</button></li>
+      <li>我的年龄:{{ $store.state.age }}</li>
       <li>十年后我的年龄：{{ $store.getters.myAge }}</li>
       <li>年龄同步+1
         <button @click="$store.commit('changeAge',1)">+1</button>
@@ -19,10 +19,10 @@
       </li>
       <li>-----------模块 b -----------</li>
       <li>
-        b: {{ $store.state.a.b.name }} ---{{ $store.state.a.b.age }}
+        b: {{ $store.state.b.name }} ---{{ $store.state.b.age }}
       </li>
       <li>年龄同步+1
-        <button @click="$store.commit('a/b/changeAge',1)">+1</button>
+        <button @click="$store.commit('b/changeAge',1)">+1</button>
       </li>
     </ul>
   </div>

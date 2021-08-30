@@ -1,19 +1,28 @@
-# my-vuex
+## vuex
+### 基本使用
 
-## Project setup
-```
-yarn install
-```
+## install方法实现
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## state实现
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## getter实现
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## mutations和actions实现
+
+## 模块modules的收集
+
+## 模块modules的实现
+
+## 开启namespace
+
+## vuex中插件的用法
+- 持久化: https://www.npmjs.com/package/vuex-persist
+- logger: 
+
+几个方法：
+- subscribe
+- replaceState
+- 
+## vuex中actions和mutations的区别
+
+## vue3用不到辅助函数
